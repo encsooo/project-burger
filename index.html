@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data styling forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <div class="headline"><h1>
+            The Best Craft Beer in Spain
+        </h1>
+        <p>Bienvenido, amigos' We are completely fictional location. But that does not mean we can't imagine the best beer in Spain!</p></div>
+    </header>
+    <main>
+        <fieldset>
+            <legend>Make a reservation</legend>
+            <p>Get you spot before somebody else does!</p>
+            <div>
+                <label for="firstname">Your Name</label>
+                <input type="text" name="name" id="name" maxlength="150" placeholder="John B. Goodie">
+            </div>
+            <div>
+                <label for="email">Your Email</label>
+                <input type="email" name="email" id="email" placeholder="John B. Goodie"> 
+            </div>
+            <div>
+                <label for="date">Reservation Time</label>
+                <input type="datetime-local" name="date" id="date">
+            </div>
+            <div class="submit"><button class="btn-submit">Reserve Now</button>
+            </div>
+        </fieldset>
+    </main>
+</body>
+</html>
